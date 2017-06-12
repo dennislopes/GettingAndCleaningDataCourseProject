@@ -26,5 +26,5 @@ After script execution the file TidyData.txt will be created.
 * Merge MeanStd subset with Labels and Subjects columns
 * Change actitity numbers in column activity by activity names
 * Generate Tidy data ordered and summarized
-# Write tidy data file
+* Write tidy data file
 
