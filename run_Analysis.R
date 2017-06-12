@@ -54,21 +54,26 @@ names(subjects_test)<-"subject"
 # Set, Label and Subjects
 merged_train<-cbind(subjects_train, labels_train, set_train)
 merged_test<-cbind(subjects_test, labels_test, set_test)
-
 merged_data<-rbind(merged_train, merged_test)
 
+# Get unique names for the columns
 names(merged_data)<-make.names(names = names(merged_data), unique=TRUE, allow=TRUE)
 
+# Select columns with Mean and Std Calculations
 MeanStd<-merged_data%>%select(matches('mean|std'))
 
+# Merge MeanStd subset with Labels and Subjects columns
 subjectsCol<-rbind(subjects_train, subjects_test)
 labelsCol<-rbind(labels_train, labels_test)
 MeanStd<-cbind(subjectsCol, labelsCol, MeanStd)
 
+# Change actitity numbers in column activity by activity names
 MeanStd<-MeanStd%>%  arrange(activity) %>%  mutate(activity = as.character(factor(activity, levels=1:6, labels= activity_names$V2)))
 
-
+# Generate Tidy data ordered and summarized
 tidydata<-MeanStd%>%group_by(subject,activity)%>%summarise_all(mean)
+
+# Write tidy data file
 write.table(tidydata, "TidyData.txt", row.name=FALSE)
 
 
