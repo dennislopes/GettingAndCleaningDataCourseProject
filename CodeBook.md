@@ -1,7 +1,7 @@
 # Project Codebook
 
-##  ## [1]subject: group of 30 volunteers who carried out the experiment
-##  ## [2]activity: activity performed by the volunteer:
+## [1]subject: group of 30 volunteers who carried out the experiment
+## [2]activity: activity performed by the volunteer:
 		## WALKING
 		## WALKING_UPSTAIRS
 		## WALKING_DOWNSTAIRS
