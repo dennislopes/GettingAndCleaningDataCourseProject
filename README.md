@@ -7,11 +7,11 @@
 * TidyData -- Data Processed and Cleaned from an Human Activity Recognition Using Smartphones Dataset from UCI Machine Learning Repository
 
 ## Instructions to use this files
-Prior to execute the R script, the zip file need to be downloaded and extracted on the R working directory (url below):
+Prior to execute the R script, this zip file need to be downloaded and extracted on the R working directory:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-After script execution the file TidyData.txt will be created.
+After script execution TidyData.txt file will be created.
 
 ## run_analysis R Script execute the following actions:
 
