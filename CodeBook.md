@@ -2,20 +2,20 @@
 
 ## [1]subject: group of 30 volunteers who carried out the experiment
 ## [2]activity: activity performed by the volunteer:
-		## WALKING
-		## WALKING_UPSTAIRS
-		## WALKING_DOWNSTAIRS
-		## SITTING
-		## STANDING, LAYING
+		* WALKING
+		* WALKING_UPSTAIRS
+		* WALKING_DOWNSTAIRS
+		* SITTING
+		* STANDING, LAYING
 ## mean and standard calculations of original fields
                         
- ## [3] "tBodyAcc.mean...X"                   
- ## [4] "tBodyAcc.mean...Y"                   
- ## [5] "tBodyAcc.mean...Z"                   
- ## [6] "tBodyAcc.std...X"                    
- ## [7] "tBodyAcc.std...Y"                    
- ## [8] "tBodyAcc.std...Z"                    
- ## [9] "tGravityAcc.mean...X"                
+## [3] "tBodyAcc.mean...X"                   
+## [4] "tBodyAcc.mean...Y"                   
+## [5] "tBodyAcc.mean...Z"                   
+## [6] "tBodyAcc.std...X"                    
+## [7] "tBodyAcc.std...Y"                    
+## [8] "tBodyAcc.std...Z"                    
+## [9] "tGravityAcc.mean...X"                
 ## [10] "tGravityAcc.mean...Y"                
 ## [11] "tGravityAcc.mean...Z"                
 ## [12] "tGravityAcc.std...X"                 
