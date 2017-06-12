@@ -1,12 +1,15 @@
 # Project Codebook
 
 ## [1]subject: group of 30 volunteers who carried out the experiment (from 1 to 30)
+
 ## [2]activity: activity performed by the volunteer:
 		* WALKING
 		* WALKING_UPSTAIRS
 		* WALKING_DOWNSTAIRS
 		* SITTING
-		* STANDING, LAYING
+		* STANDING
+		* LAYING
+		
 ## Mean and standard calculations of original fields
                         
 ## [3] "tBodyAcc.mean...X"                   
